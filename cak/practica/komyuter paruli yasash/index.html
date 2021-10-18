@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+<h1 class="title">Password Generator </h1>
+
+<h3 class="pasword-display" id="passwordDisplay">kalit so'z</h3>
+
+<form   class="forma" id="parol">   
+<label for="  characterAmountNumber"> Number of characters</label>
+
+<div class="character-amount-container">
+
+
+    <input type="range" min="1" max="50" value="10" id="characterAmountRange">
+
+    <input class="number-input" type="number"  min="1" max="50"  value="10"  id="characterAmountNumber">
+    
+    
+    
+
+
+</div>
+
+
+
+
+
+
+<label for="includeUppercase"> Include Uppercase</label>
+
+
+
+<input type="checkbox" id="includeUppercase">
+
+
+<label for="includNumbers"> Include Numbers</label>
+
+
+<input  id="includeNumbers" type="checkbox" >
+
+
+
+<label for="includeSymbols"> Include Symbols</label>
+
+
+<input type="checkbox" id="includeSymbols">
+
+<button class="sub"  type="submit">Generate password  </button>
+
+</form>
+
+
+ 
+
+<!--davomi bor  xali -->
+
+</div>
+
+
+
+
+<script src="main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+body{
+    font-family: 'open sans', sans-serif;
+    background-color: black;
+}
+#container{
+
+    width: 65%;
+    height: 560px;
+    background-color: blue;
+    margin: 20px auto;
+}
+#calculator{
+
+    width: 320px;
+    height: 550px;
+    background-color:antiquewhite;
+    margin: 0 auto;
+    top: 0px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: coral;
+    padding-bottom: 10px;
+    margin-bottom: 0
+}
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+margin: 20px auto;
+    padding-top: 20px;
+    font-size: 17px;
+    color: darkblue;
+
+}
+
+
+#output{
+text-align: right;
+height: 60px;
+margin: 10px 20px;
+font-size: 33px;
+}
+
+
+
+
+#keyboard{
+    height: 400px;
+}
+.operator ,.number , .empty{
+
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    float: left;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.number,.empty {
+    background-color: dodgerblue;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{ 
+    font-size: 14px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: rgb(204, 142, 9);
+}
+
+
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: seagreen;
+}
+
+
+button:nth-child(12){
+    font-size: 2opx;
+    background-color: rebeccapurple;
+}
+
+
+
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(231, 18, 53);
+}
+
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(34, 233, 223);
+}
+
+
+button:nth-child(1){
+    font-size: 20px;
+    background-color: rgb(228, 9, 9);
+}
+
+
+button:nth-child(2){
+    font-size: 20px;
+    background-color: rgb(182, 148, 155);
+}
+
+button:nth-child(3){
+    font-size: 20px;
+    background-color: rgb(19, 180, 46);
+}
+
+
+
+.osti{
+    padding: 30px 10px;
+    margin: 8px auto;
+color: seashell;
+text-align: center;
+background-color: seagreen;
+width: 65%;
+position: relative;
+cursor: pointer;
+font-family: sans-serif;
+font-size: 25px;
+
+}
+
+
+/*// bu ish mukaammal bajarildi*/
+ 
